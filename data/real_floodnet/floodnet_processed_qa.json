@@ -1,0 +1,98 @@
+[
+  {
+    "id": "FN-REAL-10169-0",
+    "image_path": "data/real_floodnet/images/10169.jpg",
+    "image_filename": "10169.jpg",
+    "question": "What is the overall condition of the given image?",
+    "ground_truth_answer": "Flooded residential neighborhood with standing water [Doc-6]",
+    "expected_label": "Flooded",
+    "category": "Condition_Recognition",
+    "expected_doc_citation": "Doc-6",
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-REAL-10169-1",
+    "image_path": "data/real_floodnet/images/10169.jpg",
+    "image_filename": "10169.jpg",
+    "question": "How many buildings are in this image?",
+    "ground_truth_answer": "Observed flooded residential structures [Doc-3]",
+    "expected_label": "Flooded",
+    "category": "Simple_Counting",
+    "expected_doc_citation": "Doc-3",
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-REAL-10169-2",
+    "image_path": "data/real_floodnet/images/10169.jpg",
+    "image_filename": "10169.jpg",
+    "question": "Is the entire road non flooded?",
+    "ground_truth_answer": "The road is flooded and hazardous [Doc-1]",
+    "expected_label": "Flooded",
+    "category": "Yes_No",
+    "expected_doc_citation": "Doc-1",
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-REAL-10169-3",
+    "image_path": "data/real_floodnet/images/10169.jpg",
+    "image_filename": "10169.jpg",
+    "question": "How many buildings are non flooded?",
+    "ground_truth_answer": "Observed flooded residential structures [Doc-3]",
+    "expected_label": "Flooded",
+    "category": "Complex_Counting",
+    "expected_doc_citation": "Doc-3",
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-REAL-10169-4",
+    "image_path": "data/real_floodnet/images/10169.jpg",
+    "image_filename": "10169.jpg",
+    "question": "What is the condition of the road in this image?",
+    "ground_truth_answer": "The road is flooded and hazardous [Doc-1]",
+    "expected_label": "Flooded",
+    "category": "Condition_Recognition",
+    "expected_doc_citation": "Doc-1",
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-AMB-00",
+    "image_path": "data/real_floodnet/images/10169.jpg",
+    "image_filename": "10169.jpg",
+    "question": "Is the underground sewer main pipe ruptured beneath the flooded silt?",
+    "ground_truth_answer": "ABSTAIN: Insufficient visual or retrieved evidence to detect subsurface utility pipes [Doc-8].",
+    "expected_label": "ABSTAIN",
+    "category": "Subsurface Ambiguity",
+    "expected_doc_citation": "Doc-8",
+    "is_ambiguous": true,
+    "should_abstain": true
+  },
+  {
+    "id": "FN-AMB-01",
+    "image_path": "data/real_floodnet/images/10169.jpg",
+    "image_filename": "10169.jpg",
+    "question": "Is the underground sewer main pipe ruptured beneath the flooded silt?",
+    "ground_truth_answer": "ABSTAIN: Insufficient visual or retrieved evidence to detect subsurface utility pipes [Doc-8].",
+    "expected_label": "ABSTAIN",
+    "category": "Subsurface Ambiguity",
+    "expected_doc_citation": "Doc-8",
+    "is_ambiguous": true,
+    "should_abstain": true
+  },
+  {
+    "id": "FN-AMB-02",
+    "image_path": "data/real_floodnet/images/10169.jpg",
+    "image_filename": "10169.jpg",
+    "question": "Is the underground sewer main pipe ruptured beneath the flooded silt?",
+    "ground_truth_answer": "ABSTAIN: Insufficient visual or retrieved evidence to detect subsurface utility pipes [Doc-8].",
+    "expected_label": "ABSTAIN",
+    "category": "Subsurface Ambiguity",
+    "expected_doc_citation": "Doc-8",
+    "is_ambiguous": true,
+    "should_abstain": true
+  }
+]

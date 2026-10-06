@@ -1,0 +1,62 @@
+[
+  {
+    "doc_id": "Doc-1",
+    "source": "FEMA Post-Disaster Damage Assessment Guide",
+    "topic": "Inundated Roadways and Emergency Accessibility",
+    "content": "An asphalt or concrete roadway is classified as impassable and hazardous if standing or flowing floodwater exceeds 6 inches (15 cm) in depth, or if structural pavement washout has occurred. Emergency response vehicles cannot safely navigate roads with contiguous water covering lane markings. High-water marks and submerged curbs indicate immediate hazard status."
+  },
+  {
+    "doc_id": "Doc-2",
+    "source": "FEMA Post-Disaster Damage Assessment Guide",
+    "topic": "Structural Damage Classification - Level 1 (Affected)",
+    "content": "Level 1 (Affected) indicates minor, non-structural damage. Buildings show cosmetic surface staining, superficial siding displacement, or minor roof shingle loss covering less than 5% of the total surface. Structural frame, exterior load-bearing walls, and foundation remain completely intact and secure."
+  },
+  {
+    "doc_id": "Doc-3",
+    "source": "FEMA Post-Disaster Damage Assessment Guide",
+    "topic": "Structural Damage Classification - Level 2 (Minor Damage)",
+    "content": "Level 2 (Minor Damage) encompasses buildings with water lines below 18 inches in living areas, damage to non-structural elements (soffits, fascia, window glazing), or partial roof covering loss between 5% and 25%. The primary structure remains habitable and can be repaired rapidly without complete rebuild."
+  },
+  {
+    "doc_id": "Doc-4",
+    "source": "FEMA Post-Disaster Damage Assessment Guide",
+    "topic": "Structural Damage Classification - Level 3 (Major Damage)",
+    "content": "Level 3 (Major Damage) indicates substantial structural failure where the property is uninhabitable. Evidenced by water lines exceeding 18 inches above the first floor, major roof collapse or puncture exceeding 25% of surface area, wall displacement, or compromised load-bearing partitions. Extensive professional rehabilitation is required before re-occupancy."
+  },
+  {
+    "doc_id": "Doc-5",
+    "source": "FEMA Post-Disaster Damage Assessment Guide",
+    "topic": "Structural Damage Classification - Level 4 (Destroyed)",
+    "content": "Level 4 (Destroyed) indicates total structural collapse or damage so severe that repair is economically and structurally unfeasible. Characterized by complete roof framing detachment, collapse of foundation walls, washed-out structural piers, or only the slab remaining visible in aerial and UAV imagery."
+  },
+  {
+    "doc_id": "Doc-6",
+    "source": "FAO Land Cover Classification System (LCCS)",
+    "topic": "Inland Water Bodies and Flooded Vegetation",
+    "content": "Artificial and natural water surfaces exhibit low reflectance in the near-infrared and shortwave-infrared spectra. In high-resolution RGB aerial orthophotos, floodwater appears dark blue, brown, or green depending on sediment load and suspended particulate concentration. Flooded vegetation occurs where tree canopies or reed beds emerge from contiguous standing water."
+  },
+  {
+    "doc_id": "Doc-7",
+    "source": "FAO Land Cover Classification System (LCCS)",
+    "topic": "Urban Built-up Infrastructure and Residential Zones",
+    "content": "Built-up areas comprise residential structures, paved transportation networks, and commercial complexes. In high-resolution UAV orthomosaics (GSD < 5 cm), residential roof structures typically show rectangular or pitched geometries with asphalt shingle, tile, or metal cladding, bounded by parcel fences, driveways, and street curbs."
+  },
+  {
+    "doc_id": "Doc-8",
+    "source": "USGS Earth Observation Sensor Guidelines",
+    "topic": "Aerial Perspective, Sun Glint, and Shadow Occlusion",
+    "content": "High-resolution nadir and oblique aerial imagery are prone to specular reflection (sun glint) across water surfaces and deep shadow occlusion cast by tall structures or mature tree canopies. When sub-surface building features or submerged roadway substrates are obscured by dark shadow cast or turbid sediment, visual confirmation cannot be validated with certainty, mandating epistemic abstention."
+  },
+  {
+    "doc_id": "Doc-9",
+    "source": "OpenStreetMap Infrastructure Tagging Standards",
+    "topic": "Waterway and Flood Defense Attributes",
+    "content": "Drainage ditches, culverts, and retention basins are designated as critical hydrological mitigation features. In aerial surveys, failure or overtopping of retention embankments results in radial debris deposition and contiguous backwater pooling into adjacent residential and industrial rights-of-way."
+  },
+  {
+    "doc_id": "Doc-10",
+    "source": "FEMA Emergency Management Agency",
+    "topic": "Submerged Vehicles and Evacuation Verification",
+    "content": "A passenger vehicle or light truck is considered stranded and hazardous when floodwater reaches hubcap height or higher. Vehicles submerged to window level indicate severe local inundation exceeding 2.5 feet (75 cm), signifying that evacuation routes along that corridor are completely cut off."
+  }
+]

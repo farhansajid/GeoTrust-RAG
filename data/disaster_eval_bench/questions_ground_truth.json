@@ -1,0 +1,122 @@
+[
+  {
+    "id": "FN-001",
+    "image_id": "flood_scene_01.jpg",
+    "question": "Is the residential roadway submerged and impassable according to emergency standards?",
+    "category": "Roadway Accessibility",
+    "ground_truth_answer": "Yes, the roadway is submerged and impassable. Contiguous floodwater covers the lane markings and curbs, creating hazardous conditions that exceed emergency navigation safety limits.",
+    "expected_label": "Yes",
+    "expected_doc_citation": "Doc-1",
+    "expected_bbox": [520, 110, 890, 940],
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-002",
+    "image_id": "flood_scene_01.jpg",
+    "question": "What is the FEMA structural damage classification of the flooded residential building on the left?",
+    "category": "Building Damage Tier",
+    "ground_truth_answer": "Level 2 (Minor Damage). Floodwater reaches approximately 12 inches against exterior walls below the living area sill, with minor cosmetic siding staining but intact structural framing.",
+    "expected_label": "Level 2",
+    "expected_doc_citation": "Doc-3",
+    "expected_bbox": [150, 80, 480, 420],
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-003",
+    "image_id": "flood_scene_02.jpg",
+    "question": "What is the structural condition of the house with detached roof framing?",
+    "category": "Building Damage Tier",
+    "ground_truth_answer": "Level 4 (Destroyed). The roof framing is completely detached and collapsed, with exterior load-bearing wall failure rendering the property a total structural loss.",
+    "expected_label": "Level 4",
+    "expected_doc_citation": "Doc-5",
+    "expected_bbox": [210, 310, 680, 790],
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-004",
+    "image_id": "flood_scene_02.jpg",
+    "question": "Can emergency rescue vehicles safely navigate through this residential street?",
+    "category": "Emergency Routing",
+    "ground_truth_answer": "No. The street is heavily flooded with standing water and structural debris, preventing safe passage of emergency vehicles.",
+    "expected_label": "No",
+    "expected_doc_citation": "Doc-1",
+    "expected_bbox": [480, 50, 920, 950],
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-005",
+    "image_id": "flood_scene_03.jpg",
+    "question": "Are there submerged passenger vehicles visible along the driveway?",
+    "category": "Submerged Assets",
+    "ground_truth_answer": "Yes, two passenger vehicles are submerged past wheel hubcap level in the driveway.",
+    "expected_label": "Yes",
+    "expected_doc_citation": "Doc-10",
+    "expected_bbox": [410, 520, 620, 810],
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-006",
+    "image_id": "flood_scene_03.jpg",
+    "question": "Is the subsurface foundation wall cracked underneath the deep turbid floodwater and tree shadow?",
+    "category": "Ambiguity & Occlusion",
+    "ground_truth_answer": "ABSTAIN: Insufficient visual or retrieved evidence. The foundation is entirely obscured by deep sediment-laden floodwater and tree canopy shadows, preventing verified assessment.",
+    "expected_label": "ABSTAIN",
+    "expected_doc_citation": "Doc-8",
+    "expected_bbox": null,
+    "is_ambiguous": true,
+    "should_abstain": true
+  },
+  {
+    "id": "FN-007",
+    "image_id": "flood_scene_04.jpg",
+    "question": "Is active wildfire smoke or scorched earth present in this flooded coastal neighborhood?",
+    "category": "Adversarial / Out-of-Distribution",
+    "ground_truth_answer": "No, there is no wildfire smoke or scorch present. The scene consists entirely of coastal flood inundation and residential structures.",
+    "expected_label": "No",
+    "expected_doc_citation": "Doc-6",
+    "expected_bbox": null,
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-008",
+    "image_id": "flood_scene_04.jpg",
+    "question": "Are residential structures in this aerial view showing signs of FEMA Level 3 (Major Damage)?",
+    "category": "Building Damage Tier",
+    "ground_truth_answer": "Yes, two residential structures exhibit structural roof punctures exceeding 25% of surface area and compromised exterior wall sections.",
+    "expected_label": "Yes",
+    "expected_doc_citation": "Doc-4",
+    "expected_bbox": [180, 220, 560, 640],
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-009",
+    "image_id": "flood_scene_05.jpg",
+    "question": "Is the drainage retention ditch functioning properly or experiencing overflow into the adjacent roadway?",
+    "category": "Hydrological Infrastructure",
+    "ground_truth_answer": "The drainage retention ditch has overtopped its embankment, resulting in backwater pooling and silt deposition across the adjacent roadway.",
+    "expected_label": "Overflowing",
+    "expected_doc_citation": "Doc-9",
+    "expected_bbox": [340, 150, 710, 880],
+    "is_ambiguous": false,
+    "should_abstain": false
+  },
+  {
+    "id": "FN-010",
+    "image_id": "flood_scene_05.jpg",
+    "question": "Can the exact depth of subterranean utility conduits beneath the flooded silt be determined from this aerial image?",
+    "category": "Ambiguity & Occlusion",
+    "ground_truth_answer": "ABSTAIN: Insufficient visual or retrieved evidence. Subterranean conduits cannot be observed or measured through optical surface imagery.",
+    "expected_label": "ABSTAIN",
+    "expected_doc_citation": "Doc-8",
+    "expected_bbox": null,
+    "is_ambiguous": true,
+    "should_abstain": true
+  }
+]

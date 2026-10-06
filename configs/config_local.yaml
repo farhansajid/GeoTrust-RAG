@@ -1,0 +1,33 @@
+# Configuration for GeoTrust-RAG on RTX 5060 (8.5 GB VRAM) + Intel Core Ultra 7 (32 GB RAM)
+
+system:
+  device: "cuda:0"                 # Vision model on RTX 5060
+  cpu_device: "cpu"                # RAG & NLI offloaded to Intel Core Ultra 7 CPU
+  random_seed: 42
+
+knowledge_base:
+  corpus_path: "data/knowledge_base/geospatial_corpus.json"
+  index_path: "data/knowledge_base/faiss_index.bin"
+  metadata_path: "data/knowledge_base/metadata.json"
+  embedding_model: "all-MiniLM-L6-v2"
+  chunk_size: 256
+  top_k_retrieve: 5
+  top_k_rerank: 3
+
+benchmark:
+  ground_truth_path: "data/disaster_eval_bench/questions_ground_truth.json"
+  images_dir: "data/disaster_eval_bench/sample_scenes"
+  output_dir: "results"
+
+model:
+  name: "Qwen/Qwen2.5-VL-3B-Instruct"
+  torch_dtype: "bfloat16"
+  max_new_tokens: 128
+  temperature: 0.7
+  top_p: 0.9
+  monte_carlo_samples: 3           # Fast M=3 for quick execution without OOM
+
+trustworthiness:
+  alpha_semantic_entropy: 0.6      # Weight for semantic entropy vs evidence conformity
+  abstention_threshold: 0.65       # Calibrated threshold tau for selective prediction
+  coverage_target: 0.80            # Target minimum coverage (80%)
