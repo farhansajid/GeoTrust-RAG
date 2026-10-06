@@ -151,9 +151,9 @@ All evaluations originate strictly from executed inference passes on laptop-clas
 If you find this work or codebase helpful in your research, please cite:
 
 ```bibtex
-@article{ullah2026geotrust,
+@article{zaheer2026geotrust,
   title={{GeoTrust-RAG}: Trustworthy Retrieval-Augmented Vision-Language Reasoning for Interactive Disaster Response in Earth Observation},
-  author={Ullah, Farhan and Ahmad, Muhammad and Collaborators},
+  author={Zaheer, Ahmad Nawaz and Farhan, Muhammad},
   journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
   year={2026}
 }
